@@ -9,10 +9,10 @@ export default function App() {
   return (
     <View style={styles.container}>
       <View style={styles.card}>
-        <Image source={require('./assets/me.jpeg')} style={styles.avatar} />
-        <Text style={styles.name}>Kinley Tshering</Text>
+        <Image source={require('./assets/icon.png')} style={styles.avatar} />
+        <Text style={styles.name}>Karma Galey</Text>
         <Text style={styles.subtitle}>BE Information and Technology · CST</Text>
-        <Text style={styles.bio}>I am a 3rd-year BE Information Technology student at CST who enjoys App Development. For Prject II, I am going to build a social media app.</Text>
+        <Text style={styles.bio}>A passionate app developer with a love for creating innovative solutions.</Text>
 
         <View style={styles.likesRow}>
           <Ionicons name="heart" size={22} color="#d64545" />
